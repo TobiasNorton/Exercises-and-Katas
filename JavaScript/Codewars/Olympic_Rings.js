@@ -47,5 +47,3 @@ const olympicRing = (array) => {
     return 'Gold!'
   }
 }
-Best Practices0Clever0
-0ForkCompare with your solutionLink
