@@ -31,3 +31,7 @@ const tribonacci = (signature, n) => {
   }
    return newArray.slice(0, n)
 }
+
+
+
+
