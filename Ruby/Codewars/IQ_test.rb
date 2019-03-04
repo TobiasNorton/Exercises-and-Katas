@@ -20,3 +20,8 @@ def iq_test(numbers)
   arr = numbers.split(' ').each { | n | n.to_i.even? ? even << n : odd << n }
   even.length == 1 ? arr.index(even[0]) + 1 : arr.index(odd[0]) + 1
 end
+
+
+
+
+
