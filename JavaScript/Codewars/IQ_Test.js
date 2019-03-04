@@ -14,7 +14,7 @@
 
 
 
-// My logic:
+// My plan:
 // Split the string
 // For each number, check it's remainder when divided by 2
 // If it's remainder is 0, put in even array
