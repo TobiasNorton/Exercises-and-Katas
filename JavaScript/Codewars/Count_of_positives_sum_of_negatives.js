@@ -11,23 +11,17 @@
 
 
 const countPositivesSumNegatives = (input) => {
-  if (!input) {
+  if (!input || input.length === 0) {
     return []
-  } else {
+  }
     let positiveCount = 0
     let negativeSum = 0
-    for (let i = 0; i < input.length; i++) {
-      if (input[i] > 0) {
+    input.forEach(number => {
+      if (number > 0) {
         positiveCount++
       } else {
-        negativeSum += input[i]
+        negativeSum += number
       }
-    } 
-    
-    if (input.length !== 0) {
-      return [positiveCount, negativeSum]
-    } else {
-      return []
-    }
-  }
+    }) 
+  return [positiveCount, negativeSum]
 }
