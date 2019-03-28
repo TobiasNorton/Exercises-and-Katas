@@ -12,7 +12,5 @@
 
 def XO(str)
   str.downcase!
-  x = str.count "x"
-  o = str.count "o"
-  x == o ? true : false
+  str.count('x') == str.count('o')
 end
