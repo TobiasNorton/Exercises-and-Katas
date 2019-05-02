@@ -2,11 +2,11 @@
 // ornate cuckoo clock with a missing pendulum, and a "Beyond-Ultimate Raspberry Pi Starter Kit" filled with all 
 // sorts of sensors and motors and other components, it's like you were suddenly hit by a beam of light and knew 
 // that it was your mission to combine the two to create a computerized Fizz Buzz cuckoo clock!
-// 
+ 
 // You took them home and set up shop on the kitchen table, getting more and more excited as you got everything 
 // working together just perfectly. Soon the only task remaining was to write a function to select from the sounds 
 // you had recorded depending on what time it was:
-// 
+
 // Your plan
 // When a minute is evenly divisible by three, the clock will say the word "Fizz".
 // When a minute is evenly divisible by five, the clock will say the word "Buzz".
@@ -19,11 +19,11 @@
 // subtle "tick" sound for a little more clock nature and a little less noise.
 // Your input will be a string containing hour and minute values in 24-hour time, separated by a colon, and with leading 
 // zeros. For example, 1:34 pm would be "13:34".
-// 
+
 // Your return value will be a string containing the combination of Fizz, Buzz, Cuckoo, and/or tick sounds that the clock 
 // needs to make at that time, separated by spaces. Note that although the input is in 24-hour time, cuckoo clocks' cuckoos 
 // are in 12-hour time.
-// 
+ 
 // Some examples
 // "13:34"       "tick"
 // "21:00"       "Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo"
