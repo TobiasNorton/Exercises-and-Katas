@@ -7,7 +7,7 @@
 const getCount = (str) => {
  let array = str.split('')
  let vowelsOnly = array.filter(item => item === 'a' ||
- item === 'e' || item === 'i' || item === 'o' || 
- item === 'u')
+  item === 'e' || item === 'i' || item === 'o' || 
+  item === 'u')
  return vowelsOnly.length
 }
