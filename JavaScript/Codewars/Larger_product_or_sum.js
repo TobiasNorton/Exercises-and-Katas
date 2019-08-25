@@ -20,8 +20,6 @@
 // The product of the 3 lowest numbers is higher than the sum of the 3 highest numbers so the function returns product
 
 
-
-
 const sumOrProduct = (array, n) => {
   const numbers = array.sort((a, b) => a - b)
   const largest = numbers.slice(numbers.length - n)
@@ -34,3 +32,6 @@ const sumOrProduct = (array, n) => {
     return 'same'
   }
 }
+
+
+
