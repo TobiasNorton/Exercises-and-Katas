@@ -26,9 +26,6 @@
 
 // For maps without "0" and "1" return 0 as there is no population.
 
-
-
-
 function infected(s) {
   const continents = s.split('X')
   const totalPopulation = continents.join('').length
