@@ -8,19 +8,19 @@
 
 // array_diff([1,2,2,2,3],[2]) == [1,3]
 
-
-// function arrayDiff(a, b) {
-//   const diff = []
-//   a.forEach(aNumber => {
-//     if (!b.includes(aNumber)) {
-//       diff.push(aNumber)
-//     }
-//   })
-//   return diff
-// }
-
-
 function arrayDiffAgain(a, b) {
   return a.filter(number => !b.includes(number))
+}
+
+// Or just for fun:
+
+function arrayDiff(a, b) {
+  const diff = []
+  a.forEach(aNumber => {
+    if (!b.includes(aNumber)) {
+      diff.push(aNumber)
+    }
+  })
+  return diff
 }
 
