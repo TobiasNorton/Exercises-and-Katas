@@ -43,7 +43,7 @@
 
 
 const mazeRunner = (maze, directions) => {
-  let subarray = maze.indexOf(maze.find(array => array.includes(2)))
+  let subarray = maze.findIndex(array => array.includes(2))
   let subindex = maze[subarray].indexOf(2)
   let status
 
