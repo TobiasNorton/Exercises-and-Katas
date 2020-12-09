@@ -29,6 +29,5 @@ function solve(str,idx){
     if (position === 0) {
       return i
     }
-  }
-  
+  } 
 }
