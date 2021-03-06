@@ -23,7 +23,7 @@
 
 const solution = (roman) => {
   const numeralsSplit = roman.split('')
-  const values = {
+  const valueMap = {
     I: 1,
     V: 5,
     X: 10,
@@ -34,7 +34,7 @@ const solution = (roman) => {
   }
   
   const numberValues = numeralsSplit.map((numeral, index) => {
-    return values[numeral] < values[numeralsSplit[index + 1]] ? -values[numeral] : values[numeral]
+    return valueMap[numeral] < valueMap[numeralsSplit[index + 1]] ? -valueMap[numeral] : valueMap[numeral]
   })
   return numberValues.reduce((a, b) => a + b)
 }
